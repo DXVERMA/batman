@@ -1,7 +1,7 @@
 import { useState } from "react";
 const useHttp = (requestConfig, applyData) => {
     const [isLoading, setIsLoading] = useState(false);
-    const [error, setError] = useState(null); // to put the message as error as output
+    const [error, setError] = useState(null); // to put as error as output
 
 
     const sendRequest = async () => {
